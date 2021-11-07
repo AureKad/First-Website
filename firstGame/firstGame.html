@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="firstGame.js"></script>
+    <link rel="stylesheet" href="firstGame.css">
+    <title>SpaceshipBattle</title>
+</head>
+
+<body onload="pregame()">
+    <h1 id="headline">Raumschiffkampf</h1>
+    <canvas onclick="startGame()" id="canvasid" width="800" height="500"></canvas>
+    <div id="scoreid">Score: 0</div>
+    <div id="difficultyid">Difficulty: 0</div>
+    <div id="hsc">
+        Highscore
+        <div id="highscoreid">
+            <script>
+                highscorecreate();
+            </script>
+        </div>
+    </div>
+</body>
+</html>
